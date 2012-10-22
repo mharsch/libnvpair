@@ -35,6 +35,10 @@
 #include <sys/kmem.h>
 #endif
 
+#if !defined(TEXT_DOMAIN)
+#define TEXT_DOMAIN "SYS_TEST"
+#endif
+
 #ifdef	__cplusplus
 extern "C" {
 #endif
