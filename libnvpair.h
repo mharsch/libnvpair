@@ -25,7 +25,7 @@
 #ifndef	_LIBNVPAIR_H
 #define	_LIBNVPAIR_H
 
-#include <sys/nvpair.h>
+#include "nvpair.h"
 #include <stdlib.h>
 #include <stdio.h>
 #include <regex.h>

@@ -26,7 +26,7 @@
 
 #pragma ident	"%Z%%M%	%I%	%E% SMI"
 
-#include <sys/nvpair.h>
+#include "nvpair.h"
 #include <stdlib.h>
 
 /*ARGSUSED*/

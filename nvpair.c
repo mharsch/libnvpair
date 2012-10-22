@@ -27,8 +27,8 @@
 #include <sys/debug.h>
 #include <sys/isa_defs.h>
 #include <sys/int_limits.h>
-#include <sys/nvpair.h>
-#include <sys/nvpair_impl.h>
+#include "nvpair.h"
+#include "nvpair_impl.h"
 #include <rpc/types.h>
 #include <rpc/xdr.h>
 
