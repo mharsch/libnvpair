@@ -27,7 +27,7 @@
 //#include <sys/debug.h>
 #include <assert.h>
 #define ASSERT(x) assert(x)
-#include <sys/isa_defs.h>
+#include "isa_defs.h"
 #include <sys/int_limits.h>
 #include "nvpair.h"
 #include "nvpair_impl.h"
