@@ -25,7 +25,6 @@
 
 #include <unistd.h>
 #include <strings.h>
-#include <libintl.h>
 #include <sys/types.h>
 #include <inttypes.h>
 #include <stdarg.h>
@@ -914,9 +913,9 @@ dump_nvlist(nvlist_t *list, int indent)
 			break;
 
 		default:
-			(void) printf(dgettext(TEXT_DOMAIN, "bad config type "
+			(void) printf("bad config type "
 			    "%d for %s\n"), nvpair_type(elem),
-			    nvpair_name(elem));
+			    nvpair_name(elem);
 		}
 	}
 }
