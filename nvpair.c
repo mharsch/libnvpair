@@ -35,7 +35,7 @@
 //#include <rpc/xdr.h>
 
 #if defined(_KERNEL) && !defined(_BOOT)
-#include <sys/varargs.h>
+#include <stdarg.h>
 #include <sys/ddi.h>
 #include <sys/sunddi.h>
 #else
