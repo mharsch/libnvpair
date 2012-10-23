@@ -30,6 +30,7 @@
 #include <sys/time.h>
 #include <sys/errno.h>
 #include <stdarg.h>
+#include <inttypes.h>
 
 #if defined(_KERNEL) && !defined(_BOOT)
 #include <sys/kmem.h>
@@ -38,6 +39,14 @@
 #if !defined(TEXT_DOMAIN)
 #define TEXT_DOMAIN "SYS_TEST"
 #endif
+
+typedef unsigned int	uint_t;
+typedef unsigned char	uchar_t;
+typedef long long	longlong_t;
+typedef longlong_t	hrtime_t;
+typedef unsigned long	ulong_t;
+typedef unsigned long long	u_longlong_t;
+typedef enum { B_FALSE, B_TRUE } boolean_t;
 
 #ifdef	__cplusplus
 extern "C" {

@@ -27,7 +27,7 @@
 #include <strings.h>
 #include <libintl.h>
 #include <sys/types.h>
-#include <sys/inttypes.h>
+#include <inttypes.h>
 #include <stdarg.h>
 #include <note.h>
 #include "libnvpair.h"
