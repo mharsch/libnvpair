@@ -24,7 +24,9 @@
  */
 
 #include <sys/stropts.h>
-#include <sys/debug.h>
+//#include <sys/debug.h>
+#include <assert.h>
+#define ASSERT(x) assert(x)
 #include <sys/isa_defs.h>
 #include <sys/int_limits.h>
 #include "nvpair.h"
