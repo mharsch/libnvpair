@@ -29,7 +29,8 @@
 #include <sys/types.h>
 #include <inttypes.h>
 #include <stdarg.h>
-#include <note.h>
+//#include <note.h>
+#define NOTE(s)
 #include "libnvpair.h"
 
 /*
