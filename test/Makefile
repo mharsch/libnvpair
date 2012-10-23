@@ -24,4 +24,4 @@ hellonv: hello_nv.c
 	$(CC) $(CPPFLAGS) $(CFLAGS) -o hello_nv hello_nv.c ../libnvpair.a
 
 clean:
-	rm -f $(OBJS) hello_nv
+	rm -rf $(OBJS) hello_nv hello_nv.dSYM/

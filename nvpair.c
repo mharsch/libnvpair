@@ -23,7 +23,9 @@
  * Copyright (c) 2000, 2010, Oracle and/or its affiliates. All rights reserved.
  */
 
+#if !defined(__APPLE__)
 #include <sys/stropts.h>
+#endif
 //#include <sys/debug.h>
 #include <assert.h>
 #define ASSERT(x) assert(x)
