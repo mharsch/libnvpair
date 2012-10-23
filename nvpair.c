@@ -28,7 +28,7 @@
 #include <assert.h>
 #define ASSERT(x) assert(x)
 #include "isa_defs.h"
-#include <sys/int_limits.h>
+#include <inttypes.h>
 #include "nvpair.h"
 #include "nvpair_impl.h"
 //#include <rpc/types.h>
