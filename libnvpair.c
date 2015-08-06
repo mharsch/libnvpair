@@ -1217,7 +1217,8 @@ nvpair_value_match_regex(nvpair_t *nvp, int ai,
 		break;
 	}
 	case DATA_TYPE_BOOLEAN_VALUE: {
-		boolean_t val, val_arg;
+		uint32_t val_arg;
+		boolean_t val;
 
 		/* scanf boolean_t from value and check for match */
 		sr = sscanf(value, "%"SCNi32, &val_arg);
@@ -1228,7 +1229,8 @@ nvpair_value_match_regex(nvpair_t *nvp, int ai,
 		break;
 	}
 	case DATA_TYPE_BOOLEAN_ARRAY: {
-		boolean_t *val_array, val_arg;
+		boolean_t *val_array;
+		uint32_t val_arg;
 
 		/* check indexed value of array for match */
 		sr = sscanf(value, "%"SCNi32, &val_arg);
