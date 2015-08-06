@@ -24,7 +24,7 @@
  */
 
 #include <unistd.h>
-#include <strings.h>
+#include <string.h>
 #include <sys/types.h>
 #include <inttypes.h>
 #include <stdarg.h>
