@@ -913,9 +913,8 @@ dump_nvlist(nvlist_t *list, int indent)
 			break;
 
 		default:
-			(void) printf("bad config type "
-			    "%d for %s\n"), nvpair_type(elem),
-			    nvpair_name(elem);
+			(void) printf("bad config type %d for %s\n",
+			              nvpair_type(elem), nvpair_name(elem));
 		}
 	}
 }
